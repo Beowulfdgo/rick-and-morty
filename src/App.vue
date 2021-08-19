@@ -2,6 +2,7 @@
   <div id="app">
  <div>
    <h1>Rick and morty</h1>
+ </div> 
  </div>
 </template>
 
