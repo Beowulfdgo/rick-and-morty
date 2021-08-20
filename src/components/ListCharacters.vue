@@ -1,7 +1,7 @@
 <template>
   <section>
       <div class="characters">
-          <div class="charactes__item">
+          <div class="characters__item">
               <h2>Characters</h2>
           </div>
       </div>
@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import {onMounted} from 'vue'
-import {useStore} from 'vuex'
+import { onMounted } from 'vue'
+import { useStore } from 'vuex'
 export default {
-setup(){
-    const store = useStore
+ setup() {
+    const store = useStore()
 
  onMounted(() => {
      store.dispatch('getCharacters')
